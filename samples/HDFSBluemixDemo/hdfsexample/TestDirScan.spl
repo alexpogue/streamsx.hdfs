@@ -53,7 +53,7 @@ public composite TestDirScan
 				hdfsUri : $hdfsUri ;
 				hdfsUser:$hdfsUser;
 				hdfsPassword: $hdfsPassword;
-				policyFileDir: "etc/policyfiles";
+				policyFilePath: "etc/policyfiles";
 		}
 
 		// use the file name from directory scan to read the file
@@ -63,7 +63,7 @@ public composite TestDirScan
 				hdfsUri : $hdfsUri ;
 				hdfsUser:$hdfsUser;
 				hdfsPassword: $hdfsPassword;
-				policyFileDir: "etc/policyfiles";
+				policyFilePath: "etc/policyfiles";
 		} 
 
 		//print out the names of each file found in the directory

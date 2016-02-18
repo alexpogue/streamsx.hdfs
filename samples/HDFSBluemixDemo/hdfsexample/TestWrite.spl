@@ -42,7 +42,7 @@ graph
 		hdfsUri : $hdfsUri ;
 		hdfsUser:$hdfsUser;
 		hdfsPassword: $hdfsPassword;
-		policyFileDir: "etc/policyfiles";
+		policyFilePath: "etc/policyfiles";
  	
  }
  () as Log = Custom(Sink) {

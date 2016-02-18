@@ -33,7 +33,7 @@ graph
 			hdfsPassword: $hdfsPassword;
 			hdfsUser:$hdfsUser;
 			file: $file;
-			policyFileDir: "etc/policyfiles";
+			policyFilePath: "etc/policyfiles";
   	}
   
 	 () as PrintContents = Custom(FromHDFS) {
